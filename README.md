@@ -1,1 +1,1 @@
-现在外层npm install 再去vue_music npm install ,再返回外层npm run dev 即可运行。如果没有MongoDB可能会报错。
+现在外层npm install 再去vue_music npm install ,再返回外层npm run dev 即可运行。如果没有MongoDB可能会报错。数据是从网络接口获取来的，后台并没有完善，只是做了个简单的连接登陆注册token，其他功能待完善。
