@@ -1,0 +1,33 @@
+{
+    "name": "yinyue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "vue_music-install": "npm install --prefix vue_music",
+        "vue_music": "npm start --prefix vue_music",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "dev": "concurrently  \" npm run server\" \"npm run vue_music\" "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parse": "^0.1.0",
+        "body-parser": "^1.19.0",
+        "concurrently": "^5.3.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.10.15",
+        "nodemon": "^2.0.6",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0",
+        "qs": "^6.9.4"
+    },
+    "devDependencies": {
+        "bootstrap": "^3.4.1",
+        "jquery": "^3.5.1",
+        "zico": "^1.9.1"
+    }
+}
