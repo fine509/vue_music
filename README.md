@@ -1,0 +1,1 @@
+现在外层npm install 再去vue_music npm install ,再返回外层npm run dev 即可运行。如果没有MongoDB可能会报错。
